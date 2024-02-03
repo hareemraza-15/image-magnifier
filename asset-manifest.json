@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/image-magnifier/static/css/main.f4dd4dbf.css",
+    "main.js": "/image-magnifier/static/js/main.0996652c.js",
+    "static/js/592.fb9d4f56.chunk.js": "/image-magnifier/static/js/592.fb9d4f56.chunk.js",
+    "static/media/i.jpg": "/image-magnifier/static/media/i.f892754c1c94880d9735.jpg",
+    "index.html": "/image-magnifier/index.html",
+    "main.f4dd4dbf.css.map": "/image-magnifier/static/css/main.f4dd4dbf.css.map",
+    "main.0996652c.js.map": "/image-magnifier/static/js/main.0996652c.js.map",
+    "592.fb9d4f56.chunk.js.map": "/image-magnifier/static/js/592.fb9d4f56.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4dd4dbf.css",
+    "static/js/main.0996652c.js"
+  ]
+}
