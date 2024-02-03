@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import ReactImageMagnify from 'react-image-magnify';
+import img from './i.jpg'
 
-function App() {
+const App = () => {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <div className='image'>
+      <ReactImageMagnify {...{
+        smallImage: {
+          alt: 'hii',
+          isFluidWidth: true,
+          src: img
+        },
+        largeImage: {
+          src: img,
+          width: 800,
+          height: 800
+        },
+        isHintEnabled: true,
+        enlargedImagePosition: 'over'
+
+      }} />
+    </div >
+  )
 }
 
-export default App;
+export default App
